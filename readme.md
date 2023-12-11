@@ -16,6 +16,8 @@
 <p>
 👉  Ping check.<br>
 👉  User DC Check.<br>
+👉  Url Shortner Added.<br>
+👉  Shortner Tutorial Added.<br>
 👉  Superfast interface.<br>
 👉  Password Protection.<br>
 👉  User Freindly Interface.<br>
