@@ -39,12 +39,12 @@ async def render_page(id, secure_hash):
    <p>
     <center><h5>Click On 👇 Buttons To Watch/Download In Your Favorite Player</h5></center>
     <center>
-        <button style="font-size: 40px; background-color: skyblue; border-radius: 20px;" onclick="window.location.href = 'intent:{current_url}#Intent;package=com.mxtech.videoplayer.ad;S.title={file_data.file_name};end'">MX Player</button> &nbsp
-        <button style="font-size: 40px; background-color: orange; border-radius: 20px;" onclick="window.location.href = 'vlc://{current_url}'">VLC Player</button> &nbsp <br>
+        <button style="font-size: 20px; background-color: skyblue; border-radius: 10px;" onclick="window.location.href = 'intent:{current_url}#Intent;package=com.mxtech.videoplayer.ad;S.title={file_data.file_name};end'">MX Player</button> &nbsp
+        <button style="font-size: 20px; background-color: orange; border-radius: 10px;" onclick="window.location.href = 'vlc://{current_url}'">VLC Player</button> &nbsp <br>
         <p>&nbsp</p>
-        <button style="font-size: 40px; background-color: red; border-radius: 20px;" onclick="window.location.href = 'playit://playerv2/video?url={current_url}&amp;title={file_data.file_name}'">Playit Player</button> &nbsp <br>
+        <button style="font-size: 20px; background-color: red; border-radius: 10px;" onclick="window.location.href = 'playit://playerv2/video?url={current_url}&amp;title={file_data.file_name}'">Playit Player</button> &nbsp <br>
         <p>&nbsp</p>
-        <button style="font-size: 40px; background-color: yellow; border-radius: 20px;" onclick="window.location.href = '{current_url}'">Download Video In Gallery</button> &nbsp
+        <button style="font-size: 20px; background-color: yellow; border-radius: 10px;" onclick="window.location.href = '{current_url}'">Download Video In Gallery</button> &nbsp
     </center>
 </p>
 </p>
