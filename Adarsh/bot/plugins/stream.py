@@ -67,7 +67,7 @@ async def private_receive_handler(c: Client, m: Message):
             if user.status == "kicked":
                 await c.send_message(
                     chat_id=m.chat.id,
-                    text="You are banned!\n\n  **Contact Developer [Abhi](https://t.me/+jMnd5izAEz8wYjQ1) he will help you.**",
+                    text="You are banned!\n\n  **Contact Developer [Abhi](https://t.me/Abhi_the_machinegun) he will help you.**",
                     
                     disable_web_page_preview=True
                 )
@@ -90,7 +90,7 @@ async def private_receive_handler(c: Client, m: Message):
             await m.reply_text(e)
             await c.send_message(
                 chat_id=m.chat.id,
-                text="**sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ʙᴏss](https://t.me/+jMnd5izAEz8wYjQ1)**",
+                text="**sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/abhi_the_machinegun)**",
                 
                 disable_web_page_preview=True)
             return
@@ -116,9 +116,9 @@ async def private_receive_handler(c: Client, m: Message):
             quote=True,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("🖥️  ꜱᴛʀᴇᴀᴍ  🖥️", url=stream_link),
-                 InlineKeyboardButton('📥  ᴅᴏᴡɴʟᴏᴀᴅ  📥', url=online_link)],
-                [InlineKeyboardButton('🎪  ꜱᴜʙꜱᴄʀɪʙᴇ ᴍʏ ʏᴛ ᴄʜᴀɴɴᴇʟ  🎪', url='https://t.me/+jMnd5izAEz8wYjQ1')]])
+                [InlineKeyboardButton("🖥️ ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️", url=stream_link),
+                 InlineKeyboardButton('📥 ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥', url=online_link)],
+                [InlineKeyboardButton('🎪  ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ  🎪', url='https://t.me/atozmoviesflix')]])
         )
     except FloodWait as e:
         print(f"Sleeping for {str(e.x)}s")
@@ -156,9 +156,9 @@ async def channel_receive_handler(bot, broadcast):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("🖥️  ꜱᴛʀᴇᴀᴍ  🖥️", url=stream_link),
-                     InlineKeyboardButton('📥  ᴅᴏᴡɴʟᴏᴀᴅ  📥', url=online_link)],
-                    [InlineKeyboardButton('🎪  ꜱᴜʙꜱᴄʀɪʙᴇ ᴍʏ ʏᴛ ᴄʜᴀɴɴᴇʟ  🎪', url='https://t.me/+jMnd5izAEz8wYjQ1')]
+                    [InlineKeyboardButton("🖥️ ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️", url=stream_link),
+                     InlineKeyboardButton('📥 ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥', url=online_link)],
+                    [InlineKeyboardButton('🎪  ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ  🎪', url='https://t.me/atozmoviesflix')]
                 ]
             )
         )
