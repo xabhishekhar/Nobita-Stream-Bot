@@ -102,13 +102,9 @@ async def private_receive_handler(c: Client, m: Message):
         msg_text ="""
 <b>ʏᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...⚡</b>
 
-<b>⚠️ ᴅᴏᴡɴʟᴏᴀᴅ ᴏʀ ꜱᴛʀᴇᴀᴍ ʏᴏᴜʀ ᴍᴏᴠɪᴇ</b>
-
-<b>📦  ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀᴛᴏᴢᴍᴏᴠɪᴇꜱꜰʟɪx</b>
-
 <b>⚠️ ᴛʜɪꜱ ʟɪɴᴋ ᴡɪʟʟ ᴇxᴘɪʀᴇ ᴀꜰᴛᴇʀ 𝟸𝟺 ʜᴏᴜʀꜱ</b>
 
-<b>❇️  ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @atozmoviesflix</b>"""
+<b>😎 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @Abhi_The_Machinegun</b>"""
 
         await log_msg.reply_text(text=f"**ʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Uꜱᴇʀ ɪᴅ :** `{m.from_user.id}`\n**Stream ʟɪɴᴋ :** {stream_link}", disable_web_page_preview=True,  quote=True)
         await m.reply_text(
@@ -116,9 +112,9 @@ async def private_receive_handler(c: Client, m: Message):
             quote=True,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("🖥️ ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️", url=stream_link),
-                 InlineKeyboardButton('📥 ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥', url=online_link)],
-                [InlineKeyboardButton('🎪  ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ  🎪', url='https://t.me/atozmoviesflix')]])
+                [InlineKeyboardButton("🖥️ ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ ", url=stream_link),
+                 InlineKeyboardButton('📥 ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ', url=online_link)],
+                [InlineKeyboardButton('🍿 ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ', url='https://t.me/atozmoviesflix')]])
         )
     except FloodWait as e:
         print(f"Sleeping for {str(e.x)}s")
@@ -156,9 +152,9 @@ async def channel_receive_handler(bot, broadcast):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("🖥️ ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️", url=stream_link),
-                     InlineKeyboardButton('📥 ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ 📥', url=online_link)],
-                    [InlineKeyboardButton('🎪  ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ  🎪', url='https://t.me/atozmoviesflix')]
+                    [InlineKeyboardButton("🖥️ ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ ", url=stream_link),
+                     InlineKeyboardButton('📥 ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ ', url=online_link)],
+                    [InlineKeyboardButton('🍿 ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ ', url='https://t.me/atozmoviesflix')]
                 ]
             )
         )
